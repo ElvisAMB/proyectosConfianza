@@ -24,7 +24,6 @@ namespace ApplicationDataTable
                 Console.WriteLine("Exception: " + ex.ToString());
             }
 
-
             Console.ReadKey();
         }
 
@@ -118,13 +117,11 @@ namespace ApplicationDataTable
         public string Observaciones { get; set; }
     }
 
-
     public class Telefono
     {
         public string Numero { get; set; }
         public string Descripcion { get; set; }
     }
-
 }
 
 
