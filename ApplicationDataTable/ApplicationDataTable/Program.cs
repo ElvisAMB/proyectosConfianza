@@ -24,7 +24,6 @@ namespace ApplicationDataTable
                 Console.WriteLine("Exception: " + ex.ToString());
             }
 
-
             Console.ReadKey();
         }
 
