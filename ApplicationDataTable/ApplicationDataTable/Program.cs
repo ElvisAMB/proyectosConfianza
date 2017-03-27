@@ -29,7 +29,7 @@ namespace ApplicationDataTable
 
         static DataTable GetTable()
         {
-            // Here we create a DataTable with four columns.
+            // Aquí se crean cuatro columnas para el DataTable
             DataTable table = new DataTable("Pruebas");
             table.Columns.Add("Dosage", typeof(int));
             table.Columns.Add("Drug", typeof(string));
