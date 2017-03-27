@@ -45,7 +45,6 @@ namespace ApplicationDataTable
             return table;
         }
 
-
         static DataTable ConvertToDataTable<T>(IList<T> data)
         {
             PropertyDescriptorCollection properties = TypeDescriptor.GetProperties(typeof(T));
@@ -121,6 +120,12 @@ namespace ApplicationDataTable
     {
         public string Numero { get; set; }
         public string Descripcion { get; set; }
+    }
+
+    public class Directorio
+    {
+        public List<Telefono> ListaTelefonos { get; set; }
+
     }
 }
 
