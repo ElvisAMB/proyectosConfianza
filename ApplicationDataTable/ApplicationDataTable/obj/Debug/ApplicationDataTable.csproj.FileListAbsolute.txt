@@ -1,0 +1,5 @@
+D:\Projects\ApplicationDataTable\ApplicationDataTable\bin\Debug\ApplicationDataTable.exe
+D:\Projects\ApplicationDataTable\ApplicationDataTable\bin\Debug\ApplicationDataTable.pdb
+D:\Projects\ApplicationDataTable\ApplicationDataTable\obj\Debug\ApplicationDataTable.csprojResolveAssemblyReference.cache
+D:\Projects\ApplicationDataTable\ApplicationDataTable\obj\Debug\ApplicationDataTable.exe
+D:\Projects\ApplicationDataTable\ApplicationDataTable\obj\Debug\ApplicationDataTable.pdb

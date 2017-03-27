@@ -17,7 +17,15 @@ namespace ApplicationDataTable
             try
             {
                 table = ConvertToDataTable(lista);
-                Console.WriteLine("Creó tabla");
+                Console.WriteLine("Creó tabla\n");
+
+                foreach (DataRow item in table.Rows)
+                {
+                    Console.WriteLine("Código: " + item[0].ToString());
+                    Console.WriteLine("Código Entidad: " + item[1].ToString());
+                    Console.WriteLine("Nombres: " + item[3].ToString());
+                    Console.WriteLine("\n");
+                }
             }
             catch (Exception ex)
             {
